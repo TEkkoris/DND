@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путеводитель наемника по Ардонии</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto Slab', serif;
+            background-color: #4a3f35;
+            color: #dcdcdc;
+            background-image: url('https://www.transparenttextures.com/patterns/leather.png');
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Marcellus SC', serif;
+            color: #f5deb3;
+            border-bottom: 1px solid #8a745b;
+            padding-bottom: 8px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: rgba(40, 32, 26, 0.8);
+            border: 2px solid #8a745b;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
+        }
+        .card {
+            background-color: rgba(60, 50, 42, 0.7);
+            border: 1px solid #6b5b4a;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="container p-6 md:p-10 rounded-lg">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl">Путеводитель наемника по Ардонии</h1>
+            <p class="text-lg text-gray-400 mt-2">"Что нужно знать, чтобы не сдохнуть зря"</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section id="whats-the-deal">
+                <h2 class="text-3xl mb-4">Что к чему?</h2>
+                <p class="text-lg leading-relaxed">Слушай сюда, новичок. Ардония — не то место, каким была в байках твоего деда. Королевство увядает, как осенний лист. Король стар и слаб, а знать при дворе грызется за власть, как собаки за кость. Для нас с тобой это и хорошо, и плохо. Плохо — потому что закон тут дырявый, и нарваться на неприятности проще простого. Хорошо — потому что для того, у кого меч острый, а голова на плечах, всегда найдется работа. Просто знай, кому верить, а от кого держаться подальше.</p>
+            </section>
+
+            <section id="whos-who">
+                <h2 class="text-3xl mb-6">Кто есть кто? (Кратко и по делу)</h2>
+                <div class="space-y-8">
+                    
+                    <div class="card rounded-lg overflow-hidden md:flex">
+                        <div class="md:w-1/3 w-full flex-shrink-0 aspect-[3/4]">
+                            <img src=<a href="https://ibb.co/20Sryn5Y"><img src="https://i.ibb.co/nqBybgR8/Google-AI-Studio-2025-08-17-T12-45-07-055-Z.png" alt="Google-AI-Studio-2025-08-17-T12-45-07-055-Z" border="0"></a>
+                        </div>
+                        <div class="p-6 md:w-2/3">
+                            <h3 class="text-2xl">Старик на троне (Король Теодерик)</h3>
+                            <p class="mt-2 text-lg">Вид у него вечно печальный. Говорят, какая-то семейная трагедия. Нам-то что? Главное — казна платит исправно, хоть и с задержками. Его личная гвардия — фанатики, так что во дворце не шуми. В целом, безобиден, но власти у него — кот наплакал.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div class="card rounded-lg overflow-hidden">
+                            <div class="aspect-[3/4]">
+                                <img src=<a href="https://ibb.co/zhFMPq1K"><img src="https://i.ibb.co/QFkgYyZs/Google-AI-Studio-2025-08-17-T13-01-01-064-Z.png" alt="Google-AI-Studio-2025-08-17-T13-01-01-064-Z" border="0"></a>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl">Железный Генерал (Валериус)</h3>
+                                <p class="mt-2 text-lg">Если ищешь честной солдатской работы — тебе к нему. Платит не золотом, но стабильно. Требует дисциплины, не терпит пьяниц и разгильдяев. Его люди — настоящие вояки. Уважаемый мужик, хоть и слишком правильный.</p>
+                            </div>
+                        </div>
+                        <div class="card rounded-lg overflow-hidden">
+                            <div class="aspect-[3/4]">
+                                <img src="https://i.ibb.co/FTY44L9/Google-AI-Studio-2025-08-17-T13-08-33-404-Z.png" alt="Паучиха" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl">Паучиха (Леди Вейн)</h3>
+                                <p class="mt-2 text-lg">Ее люди всегда ищут кого-то для "тихой работы". Платят щедро, но если спросишь, за что, — можешь не проснуться. Связываться с ней — большой риск. Но если нужны быстрые и большие деньги... сам решай.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div class="card rounded-lg overflow-hidden">
+                            <div class="aspect-[3/4]">
+                                <img src="https://i.ibb.co/S4KhZQHP/Google-AI-Studio-2025-08-17-T13-03-03-710-Z.png" alt="Бородачи" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl">Бородачи (Дварфы)</h3>
+                                <p class="mt-2 text-lg">Лучшие кузнецы и пивовары. Живут сами по себе, в дела людей не лезут. Не пытайся их обмануть — не простят. Если нужен хороший топор или крепкая броня — иди к ним. Их старейшина, Траин, — мужик толковый.</p>
+                            </div>
+                        </div>
+                        <div class="card rounded-lg overflow-hidden">
+                            <div class="aspect-[3/4]">
+                                <img src="https://i.ibb.co/H1gsy25/Google-AI-Studio-2025-08-17-T12-50-45-090-Z.png" alt="Остроухие" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl">Остроухие (Эльфы)</h3>
+                                <p class="mt-2 text-lg">Надменные и себе на уме. Знают много всякой древней чепухи. В драку не лезут, но если их достать, могут удивить. Лучше всего просто обходить их стороной, если только у них нет для тебя специального поручения.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="where-to-go">
+                <h2 class="text-3xl mb-4">Куда податься?</h2>
+                <ul class="text-lg space-y-4 list-disc list-inside">
+                    <li><strong class="text-wheat-300">Лириас (Столица):</strong> Шумно, грязно, полно работы. Можно наняться в стражу, можно в охрану к купцу, а можно и вляпаться в интриги знати. Держи кошелек поближе, а нож — под рукой.</li>
+                    <li><strong class="text-wheat-300">Оплот (Вольный город):</strong> Говорят, там настоящий рай для нашего брата. Город в горах, живет торговлей. Платят за умения, а не за родословную. Отличное место, чтобы подзаработать на охране караванов или просто отсидеться.</li>
+                    <li><strong class="text-wheat-300">Замостье (Пограничье):</strong> Дыра на краю света. Если любишь каждый день отбиваться от какой-то твари — тебе туда. Платят мало, опасностей много. Но если хочешь прославиться как герой — лучшего места не найти.</li>
+                    <li><strong class="text-wheat-300">Шепчущий Лес:</strong> Забудь. Просто забудь про это место. Оттуда не возвращаются. А если и возвращаются, то лучше бы им было сгинуть там. Проклятая земля.</li>
+                </ul>
+            </section>
+
+            <section id="what-about-work">
+                <h2 class="text-3xl mb-4">Что по работе? (Свежие слухи)</h2>
+                <div class="card p-6">
+                    <p class="text-lg leading-relaxed">Сейчас все только и говорят о Замостье. Какие-то зверолюды, вроде как гноллы с минотаврами, совсем озверели. Раньше просто набеги делали, а теперь прут напролом, будто от самого дьявола бегут. Староста той деревни наверняка готов отсыпать золота любому, кто поможет разобраться с этой напастью. А если копнуть глубже, может, и выяснится, чего эти твари так испугались в своем лесу. Где страх — там и тайна, а где тайна — там и награда для смелых.</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
